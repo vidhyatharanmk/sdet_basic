@@ -1,2 +1,3 @@
 # sdet_basic
-SDET Basic practices
+* SDET Basic practices
+
