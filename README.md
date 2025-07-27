@@ -1,19 +1,18 @@
-# sdet_basic
-* SDET Basic practices
+# SDET Basic practices
 
 1. Implement the following program using Java OOPs concepts:
 	- Create the following three classes and corresponding variables and methods:
-		- **Account (Base Class):** Include `Interest` as one variable and a corresponding method to calculate interest and add it to the account.
-		- **SavingsAccount (Derived Class):** Implement overridden methods of the Account class.
-		- **CurrentAccount (Derived Class):** Implement overridden methods of the Account class.
+		- *Account (Base Class):* Include `Interest` as one variable and a corresponding method to calculate interest and add it to the account.
+		- *SavingsAccount (Derived Class):* Implement overridden methods of the Account class.
+		- *CurrentAccount (Derived Class):* Implement overridden methods of the Account class.
 
-    - Solution: [bankacc.java](./bankacc.java)
+    - ***Solution: [bankacc.java](./bankacc.java)***
 2. Implement the following program using Python:
 	- Create a Python class `Student` with three variables: `Name`, `Grade`, and `Age`.
 	- Create a `display()` method to display the Name, Grade, and Age of an object created using the Student class.
 	- Create another class `School` which inherits from the Student class and create another method `SchoolStudentDisplay()` which displays Name, Grade, and Age for objects created using the School class.
 
-    - Solution: [display.py](./display.py)
+    - ***Solution: [display.py](./display.py)***
 
 3. Launch Firefox and verify the MakeMyTrip logo is present on the page.
 	- Implement using Selenium with WebDriver.
@@ -51,4 +50,4 @@
 	- Implement using Selenium with WebDriver (implement it in Python and use pytest fixtures).
 	- URL: https://www.w3schools.com/
 
-    - Solution: [w3schools.py](./w3schools.py)
+    - ***Solution: [w3schools.py](./w3schools.py)***
