@@ -59,6 +59,8 @@
 	- Use assertion results (listeners concept).
 	- URL: https://www.makemytrip.com/
 
+    - ***Solution: [MakeMyTrip_Jmeter Test.jmx](./MakeMyTrip_Jmeter Test.jmx)***
+      
 10. Launch Chrome and verify the W3Schools logo is present on the page.
 	- Implement using Selenium with WebDriver (implement it in Python and use pytest fixtures).
 	- URL: https://www.w3schools.com/
