@@ -7,6 +7,7 @@
 		- *CurrentAccount (Derived Class):* Implement overridden methods of the Account class.
 
     - ***Solution: [bankacc.java](./bankacc.java)***
+      
 2. Implement the following program using Python:
 	- Create a Python class `Student` with three variables: `Name`, `Grade`, and `Age`.
 	- Create a `display()` method to display the Name, Grade, and Age of an object created using the Student class.
@@ -17,6 +18,8 @@
 3. Launch Firefox and verify the MakeMyTrip logo is present on the page.
 	- Implement using Selenium with WebDriver.
 	- URL: https://www.makemytrip.com/
+
+	- ***Solution: [MakeMyTrip_LogoCheck.java](./MakeMyTrip_LogoCheck.java)***
 
 4. Launch Chrome, click on Flights, and select OneWay to enter FROM and TO locations.
 	- Find the WebElements (Flights, OneWay, FROM, and TO) using XPaths.
