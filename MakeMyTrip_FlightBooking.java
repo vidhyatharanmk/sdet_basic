@@ -5,7 +5,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class MakeMyTrip_FlightBooking {
 
@@ -33,42 +32,45 @@ public class MakeMyTrip_FlightBooking {
 		} else {
 			System.out.println("Element is not found : " + element.getTagName());
 		}
-		element.clear();
 		element.sendKeys(text);
-		element.sendKeys(Keys.ENTER);
 	}
 
 	public static void main(String[] args) throws InterruptedException {
 
+		System.out.println("Start");
+
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Administrator\\Downloads\\chromedriver-win64\\chromedriver.exe");
+
 		WebDriver driver = openBrowser("https://www.makemytrip.com/");
+		Thread.sleep(5000);
 
 		WebElement popup_close = driver.findElement(By.className("commonModal__close"));
 		popup_close.click();
 		System.out.println("Popup is closed");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 
 		clickElement(driver, "//a[contains(@href, 'makemytrip.com/flights')]");
 		Thread.sleep(5000);
 
-		clickElement(driver, "//li[@data-cy='oneWayTrip')]");
+		clickElement(driver, "//li[@data-cy='oneWayTrip']");
 		Thread.sleep(5000);
 
-		clickElement(driver, "//label[@for='fromCity')]");
+		clickElement(driver, "//label[@for='fromCity']");
 		enterText(driver, "//input[@placeholder='From']", "Bengaluru");
 		Thread.sleep(5000);
-		clickElement(driver, "//ul[@role='listbox'//li[1]");
+		clickElement(driver, "//ul[@role='listbox']//li[1]");
 
-		clickElement(driver, "//label[@for='toCity')]");
+		clickElement(driver, "//label[@for='toCity']");
 		enterText(driver, "//input[@placeholder='To']", "New Delhi");
 		Thread.sleep(5000);
-		clickElement(driver, "//ul[@role='listbox'//li[1]");
+		clickElement(driver, "//ul[@role='listbox']//li[1]");
 
 		driver.findElement(By.xpath("//body")).sendKeys(Keys.ESCAPE);
 		Thread.sleep(5000);
 
 		driver.quit();
-	}
 
+		System.out.println("End");
+	}
 }
