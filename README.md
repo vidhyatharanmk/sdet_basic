@@ -26,6 +26,8 @@
 	- URL: https://www.makemytrip.com/
 	- Note: While implementing the above program, write generic functions to interact with the browser.
 
+	- ***Solution: [MakeMyTrip_FlightBooking.java](./MakeMyTrip_FlightBooking.java)***
+
 5. Implement programs 3 and 4 using TestNG concepts and write them using the `@Test` annotation.
 	- To launch the browser (repeated code), maintain it in the `@BeforeMethod` annotation.
 	- Generate TestNG HTML reports and find the test results.
