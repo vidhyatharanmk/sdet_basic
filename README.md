@@ -32,6 +32,10 @@
 	- To launch the browser (repeated code), maintain it in the `@BeforeMethod` annotation.
 	- Generate TestNG HTML reports and find the test results.
 
+	- ***Solution:
+ 		- [MakeMyTrip_TestNG.java](./MakeMyTrip_TestNG.java)
+   		- [testng.xml](./testng.xml)***
+
 6. Create a Maven project and implement all the programs in the Maven project.
 	- Add all the necessary JARs and run all the programs using Maven commands.
 
