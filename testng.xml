@@ -1,0 +1,12 @@
+<suite name="Make My Trip Suite">
+	<test name="Firefox Logo Check">
+		<paramter name="browser" value="firefox" />
+		<classes>
+			<class name="com.vidhyatharan.sdet_basic.MakeMyTrip_TestNG" />> </classes>
+	</test>
+	<test name="Chrome Flight Booking Check">
+		<paramter name="browser" value="chrome" />
+		<classes>
+			<class name="com.vidhyatharan.sdet_basic.MakeMyTrip_TestNG" />> </classes>
+	</test>
+</suite>
