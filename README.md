@@ -49,6 +49,10 @@
 	- DELETE: https://api.restful-api.dev/objects/7
 	- Note: The ID will be auto-generated, so no need to send it while posting a new record.
 	- Verify the HTTP status codes while running positive and negative test cases.
+	
+ 	- ***Solution:***
+ 		- ***[sdetbasic_collection.postman_collection](./sdetbasic_collection.postman_collection)***
+   		- ***[sdetbasic_environment.postman_environment](./sdetbasic_environment.postman_environment)***
 
 9. Create a Thread Group in a Test Plan using JMeter (use the below URL to send requests and get the server response):
 	- Use assertions in JMeter to validate the responses.
