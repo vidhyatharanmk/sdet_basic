@@ -1,0 +1,7 @@
+<suite name="Web Driver University Suite">
+	<test name="Image Check in iframe">
+		<classes>
+			<class name="com.vidhyatharan.sdet.basic.bdd.TestRunner.java" />> 
+		</classes>
+	</test>
+</suite>
